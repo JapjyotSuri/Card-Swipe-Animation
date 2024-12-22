@@ -1,4 +1,4 @@
-import { Stack } from 'expo-router'
+import { Stack, Tabs } from 'expo-router'
 import React from 'react'
 import { View } from 'react-native'
 
@@ -8,6 +8,7 @@ const _layout = () => {
     <Stack.Screen name='index' options={{
         headerShown: false
     }}></Stack.Screen>
+     
    </Stack>
 }
 
